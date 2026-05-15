@@ -1,0 +1,69 @@
+﻿Project,Date,User,Activity,Issue,Comment,Hours,End time,Start Time
+NEWOXX,04/30/2026,Omkar Tale,Development,Task #13652: Add dynamic tab structure to ReferralsGroup component,,1.17,13:10,12:00
+NEWOXX,04/30/2026,Omkar Tale,Development,Task #13646: Add tabs in the group referrals,,0.25,12:00,11:45
+Training,04/30/2026,Omkar Tale,Study,,Study,4.33,18:20,14:00
+NEWOXX,04/30/2026,Omkar Tale,Development,Task #13634: Integrate APi of group id in group module,Api integrated in group module,0.58,19:00,18:25
+NEWOXX,04/29/2026,Omkar Tale,Development,Task #13589: create loader and use in profile,,0.38,14:23,14:00
+NEWOXX,04/29/2026,Omkar Tale,Development,Task #13576: small changes in existing project,edit profile and basic info are now dynamic and all the issues has been resolved ,4.58,18:35,14:00
+NEWOXX,04/29/2026,Omkar Tale,Development,Task #13576: small changes in existing project,fixed issues of tenders and some issues has been resolved in my bids,3.5,13:00,09:30
+Training,04/29/2026,Omkar Tale,Meeting,,General Meeting,0.67,10:10,09:30
+Training,04/28/2026,Omkar Tale,Study,,,4.5,18:30,14:00
+NEWOXX,04/28/2026,Omkar Tale,Development,"Task #13580: fixed issues in budget while adding the referral and tender, made changes in leads ",Issues has been resolved,3.5,13:00,09:30
+Training,04/27/2026,Omkar Tale,Development,Support #13570: Small changes in the projects,fixed all issues ,3.5,13:00,09:30
+NEWOXX,04/24/2026,Omkar Tale,Development,Task #13464: Fix Message module ,,3.17,12:40,09:30
+Training,04/23/2026,Omkar Tale,Study,Task #13448: mysql practice quesions,,3,12:30,09:30
+NEWOXX,04/23/2026,Omkar Tale,Development,Task #13446: update a edit profile form,,2.92,17:25,14:30
+NEWOXX,04/23/2026,Omkar Tale,Development,Task #13429: integrate partner's overview api in partners page,,1.5,13:30,11:30
+Training,04/22/2026,Omkar Tale,Study,Task #13411: SQL Practice quesitons,,2.53,18:32,16:00
+NEWOXX,04/22/2026,Omkar Tale,Development,Task #13402: Add role wise breadcrumbs in partner as well as business and agent,,0.5,15:30,15:00
+NEWOXX,04/22/2026,Omkar Tale,Development,Task #13388: fixing view tender and tender's action,,1,15:00,14:00
+NEWOXX,04/22/2026,Omkar Tale,Development,Task #13388: fixing view tender and tender's action,,3.5,13:00,09:30
+NEWOXX,04/21/2026,Omkar Tale,Development,Task #13372: integrate agent register api ,,3,12:30,09:30
+Apple energy e-commerce portal,04/20/2026,Omkar Tale,Development,Task #13325: Facing problem in product listing ,,1.17,16:10,15:00
+Training,04/18/2026,Omkar Tale,Study,Task #13295: practicing sql questions,,1.25,17:30,16:15
+NEWOXX,04/18/2026,Omkar Tale,Development,"Task #13293: in partners adds commission target progress, tender target and progress",,1,16:10,15:10
+NEWOXX,04/18/2026,Omkar Tale,Development,Task #13290: in partners change the ui of my referrals card,,0.67,15:10,14:30
+NEWOXX,04/18/2026,Omkar Tale,Development,Task #13289: Change the UI  of a partners network card,,0.75,14:30,13:45
+NEWOXX,04/18/2026,Omkar Tale,Development,Task #13284: Add Partners Connection tab In Network,,0.5,12:00,11:30
+NEWOXX,04/18/2026,Omkar Tale,Development,Task #13264: discussion ,,1,11:30,10:30
+NEWOXX,04/18/2026,Omkar Tale,Development,Task #13228: add referral id in header and add feature of schedule follow up in leads,,3,12:30,09:30
+NEWOXX,04/16/2026,Omkar Tale,Development,Task #13223: add lazy loading and error boundary,,1.33,13:00,11:40
+NEWOXX,04/16/2026,Omkar Tale,Development,Task #13222: fixing ui bugs ,,2,11:30,09:30
+NEWOXX,04/15/2026,Omkar Tale,Development,Task #13185: data loading issue in dashboard while user logged in,,0.5,15:14,14:44
+NEWOXX,04/15/2026,Omkar Tale,Development,Task #13184: data loading issue in add member,,0.42,14:45,14:20
+NEWOXX,04/15/2026,Omkar Tale,Development,Task #13183: call api as per the selected tab in tenders page,,0.28,14:17,14:00
+NEWOXX,04/15/2026,Omkar Tale,Development,Task #13183: call api as per the selected tab in tenders page,,0.5,13:00,12:30
+NEWOXX,04/15/2026,Omkar Tale,Development,Task #13175: integrate api to add contact button in view profile,,1.5,12:30,11:00
+NEWOXX,04/15/2026,Omkar Tale,Development,Task #13173: fix the ui of add contact and company logo in view profile,,0.33,10:04,09:44
+NEWOXX,04/14/2026,Omkar Tale,Development,Task #13160: add search feature in network module,,0.58,19:25,18:50
+NEWOXX,04/14/2026,Omkar Tale,Development,Task #13159: fixing ui of leads list in leads,,0.2,18:52,18:40
+NEWOXX,04/14/2026,Omkar Tale,Development,Task #13158: fix search tenders,,0.25,18:35,18:20
+NEWOXX,04/14/2026,Omkar Tale,Development,Task #13147: add delete and interested button should working in network,,2,18:14,16:14
+NEWOXX,04/14/2026,Omkar Tale,Development,Task #13141: Integrate Add contact and save api in front end,,2.37,16:24,14:02
+Apple energy e-commerce portal,04/14/2026,Omkar Tale,Development,Bug #13137: Verify the product link is not clickable in web view and similar on mobile view ,,0.67,12:50,12:10
+Apple energy e-commerce portal,04/14/2026,Omkar Tale,Development,Bug #13128: location link not working properly,,1,10:40,09:40
+Apple energy e-commerce portal,04/13/2026,Omkar Tale,Development,Bug #13111: Verify Location Image Navigation to Network Tab,,0.33,17:25,17:45
+Training,04/10/2026,Omkar Tale,Study,Task #13037: Learning SQL,,3,12:30,09:30
+Training,04/09/2026,Omkar Tale,Study,Task #13037: Learning SQL,,4.47,18:28,14:00
+Apple energy e-commerce portal,04/09/2026,Omkar Tale,Development,Bug #13010: Verify filter result accuracy,,1.75,12:51,11:07
+Apple energy e-commerce portal,04/09/2026,Omkar Tale,Development,Bug #13029: Brand/logo shows clickable cursor but no action on click,,0.08,11:19,11:14
+Apple energy e-commerce portal,04/08/2026,Omkar Tale,Development,Bug #13004: Verify repeated word available in regional network,,0.15,16:37,16:28
+Apple energy e-commerce portal,04/08/2026,Omkar Tale,Development,Bug #12999: Verify text alignment consistency in company description ,,0.42,15:45,15:20
+Apple energy e-commerce portal,04/08/2026,Omkar Tale,Development,Bug #12993: fix the sorting in product listing page,sorting is done,0.08,14:03,13:58
+Apple energy e-commerce portal,04/08/2026,Omkar Tale,Development,Task #12990: adding gap between segment and categories in navigation bar and make minor changes in search icon,,0.17,13:10,13:00
+Apple energy e-commerce portal,04/08/2026,Omkar Tale,Development,Task #12985: Disable Click Functionality of Search Icon,,0.8,12:48,12:00
+Apple energy e-commerce portal,04/08/2026,Omkar Tale,Development,Task #12986: change image in navbar dropdown and redirect to their respected product,,0.12,11:53,11:46
+Apple energy e-commerce portal,04/07/2026,Omkar Tale,Development,Bug #12904: Verify Brochure of product  is clickable and user can read brochure ,,0.33,18:18,17:58
+Apple energy e-commerce portal,04/07/2026,Omkar Tale,Development,Task #12969: Enable search suggestions from single character input instead of two,,0.33,17:34,17:14
+Apple energy e-commerce portal,04/07/2026,Omkar Tale,Development,Task #12968: Add limit in search suggestions,,0.17,18:00,17:50
+Apple energy e-commerce portal,04/07/2026,Omkar Tale,Development,Task #12931: fetching api for product search feature.,,3.25,17:00,13:45
+Apple energy e-commerce portal,04/07/2026,Omkar Tale,Development,Task #12931: fetching api for product search feature.,,2,13:00,11:30
+Apple energy e-commerce portal,04/07/2026,Omkar Tale,Development,Task #12931: fetching api for product search feature.,making responsive and checked the features is working properly or not,1.5,11:00,09:30
+Apple energy e-commerce portal,04/06/2026,Omkar Tale,Development,Task #12931: fetching api for product search feature.,,3.5,13:00,09:30
+Apple energy e-commerce portal,04/04/2026,Omkar Tale,Development,,fixing bugs on a and development apple energy project,7,05:30,10:30
+Apple energy e-commerce portal,04/04/2026,Omkar Tale,Development,Bug #12904: Verify Brochure of product  is clickable and user can read brochure ,asking this problem to maam,0.5,,
+Apple energy e-commerce portal,04/03/2026,Omkar Tale,Development,,fixing bugs and developing in apple energy,9,06:30,10:30
+Apple energy e-commerce portal,04/03/2026,Omkar Tale,Development,Task #12827: Fetch the MetaData in React ,"The GetSEOData API is being fetched on every page. However, some pages do not have metadata. You can check whether the data is present or not in the header tags of the elements.",4,,
+Apple energy e-commerce portal,04/02/2026,Omkar Tale,Testing,Bug #12803: Verify phone field accepting exactly 10 digits ,validation for mobile number is done,0.3,03:10,02:40
+Apple energy e-commerce portal,04/02/2026,Omkar Tale,Development,Bug #12804: Ensure dropdown  maintains correct alignment  ,alignment issue has been solve,0.2,02:27,02:15
+Apple energy e-commerce portal,04/02/2026,Omkar Tale,Development,Bug #12752: Verify left spacing in about company in responsive testing ,spaces removed in about us page,0.5,11:30,11:00
