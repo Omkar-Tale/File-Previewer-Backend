@@ -9,6 +9,7 @@ const morgan = require('morgan');
 const fs = require('fs');
 const path = require('path');
 const rateLimit = require('express-rate-limit');
+const { exec } = require('child_process');
 
 const uploadRouter = require('./routes/upload');
 const { UPLOAD_DIR } = require('./middleware/upload');
@@ -114,6 +115,23 @@ app.get('/api/health', (_req, res) => {
   res.json({
     status: 'ok',
     timestamp: new Date().toISOString(),
+  });
+});
+
+app.get('/check-libreoffice', (req, res) => {
+  exec('which soffice', (err, stdout, stderr) => {
+    if (err) {
+      return res.json({
+        installed: false,
+        error: err.message,
+        stderr
+      });
+    }
+
+    res.json({
+      installed: true,
+      path: stdout
+    });
   });
 });
 

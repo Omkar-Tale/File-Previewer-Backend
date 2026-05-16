@@ -8,7 +8,7 @@ const { upload, UPLOAD_DIR }               = require('../middleware/upload');
 const { validateMime, multerErrorHandler } = require('../middleware/security');
 const { getConverterType, getConverterSummary } = require('../utils/extensionRouter');
 const converters                           = require('../converters/index');
-const { exec } = require('child_process');
+
 const router = express.Router();
 
 // __dirname = server/routes/
@@ -18,22 +18,6 @@ const UPLOAD_DIR_RESOLVED  = path.join(__dirname, '../tmp/uploads');
 const PREVIEW_DIR_RESOLVED = path.join(__dirname, '../tmp/previews');
 
 
-app.get('/check-libreoffice', (req, res) => {
-  exec('which soffice', (err, stdout, stderr) => {
-    if (err) {
-      return res.json({
-        installed: false,
-        error: err.message,
-        stderr
-      });
-    }
-
-    res.json({
-      installed: true,
-      path: stdout
-    });
-  });
-});
 
 // ─── POST /api/upload ─────────────────────────────────────────────────────────
 router.post(
