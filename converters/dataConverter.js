@@ -377,6 +377,70 @@ function buildTableHTML({ title, fields, rows, totalRows, truncated, parseErrors
 </html>`;
 }
 
+// ─── CFR ──────────────────────────────────────────────────────────────────────
+async function cfrToHTML(inputPath) {
+  const buffer = fs.readFileSync(inputPath);
+
+  // detect binary
+  const isBinary = buffer.includes(0);
+
+  if (isBinary) {
+    return buildCodeHTML(
+      path.basename(inputPath),
+      `Binary CFR file
+
+Size: ${buffer.length} bytes
+
+Preview unavailable.
+This appears to be a proprietary format.`,
+      'cfr'
+    );
+  }
+
+  const raw = buffer.toString('utf8').trim();
+
+  // Try JSON
+  try {
+    JSON.parse(raw);
+
+    const temp = inputPath + '.json.tmp';
+    fs.writeFileSync(temp, raw);
+
+    const html = await jsonToHTML(temp);
+
+    fs.unlinkSync(temp);
+
+    return html;
+  } catch {}
+
+  // Try XML
+  try {
+    const { XMLParser } = require('fast-xml-parser');
+
+    const parser = new XMLParser();
+
+    parser.parse(raw);
+
+    const temp = inputPath + '.xml.tmp';
+
+    fs.writeFileSync(temp, raw);
+
+    const html = await xmlToHTML(temp);
+
+    fs.unlinkSync(temp);
+
+    return html;
+
+  } catch {}
+
+  // fallback text preview
+  return buildCodeHTML(
+    path.basename(inputPath),
+    raw.slice(0, 200000),
+    'cfr'
+  );
+}
+
 // ─── Code block viewer (for non-tabular JSON/XML) ─────────────────────────────
 function buildCodeHTML(title, content, lang) {
   return `<!DOCTYPE html>
@@ -421,4 +485,9 @@ function errorHTML(title, message) {
 </body></html>`;
 }
 
-module.exports = { csvToHTML, xmlToHTML, jsonToHTML };
+module.exports = {
+  csvToHTML,
+  xmlToHTML,
+  jsonToHTML,
+  cfrToHTML
+};

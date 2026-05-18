@@ -135,7 +135,7 @@ const EXTENSION_MAP = {
   '.ctb': 'binary',
   '.anl': 'binary',
   '.eql': 'binary',
-  '.cfr': 'binary',
+  '.cfr': 'data',
   '.hpl': 'binary',
   '.hed': 'binary',
   '.gsp': 'binary',

@@ -16,7 +16,7 @@ const fs   = require('fs');
 // ─── Import all real converter modules ───────────────────────────────────────
 const { convertOfficeToPDF }                   = require('./officeConverter');
 const { convertImage }                         = require('./imageConverter');
-const { csvToHTML, jsonToHTML, xmlToHTML }     = require('./dataConverter');
+const { csvToHTML, jsonToHTML, xmlToHTML, cfrToHTML }     = require('./dataConverter');
 const { emlToHTML, msgToHTML }                 = require('./emailConverter');
 const { dxfToHTML, dwgToHTML }                 = require('./cadConverter');
 const { textToHTML }                           = require('./textConverter');
@@ -141,6 +141,11 @@ async function convertData(filePath, originalName, ext) {
     case '.csv':  return { type: 'html', content: await csvToHTML(filePath) };
     case '.json': return { type: 'html', content: await jsonToHTML(filePath) };
     case '.xml':  return { type: 'html', content: await xmlToHTML(filePath) };
+    case '.cfr':
+  return {
+    type: 'html',
+    content: await cfrToHTML(filePath)
+  };
     default:      return stubHTML('Data', ext, filePath);
   }
 }
